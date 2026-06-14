@@ -9,8 +9,30 @@
 ## 使い方
 
 1. リポジトリをクローン
-2. ファイルを編集
-3. PRを作成して変更をマージ
+   ```bash
+   git clone https://github.com/ishisho420/ClaudeCode.git
+   cd ClaudeCode
+   ```
+
+2. 新しいブランチを作成
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+3. 変更を加えてコミット
+   ```bash
+   git add .
+   git commit -m "Add: your changes"
+   ```
+
+4. PRを作成してマージ
+   ```bash
+   gh pr create
+   ```
+
+## 環境
+
+- [Claude Code](https://claude.ai/code) — AI搭載のコーディングアシスタント
 
 ## ライセンス
 
